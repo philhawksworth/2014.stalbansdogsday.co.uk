@@ -1,0 +1,16 @@
+{
+  "name": "St Albans Dog Day 2014",
+  "version": "1.0.0",
+  "description": "Promo site for the St Albans Dog Day",
+  "author": "Phil Hawksworth",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "prebuild": "npm run clean -s",
+    "build": "cp -r src/ dist/",
+    "deploy": "(cd .. && git subtree push --prefix dist origin gh-pages)"
+  },
+  "devDependencies": {
+    "rimraf": "^2.2.8"
+  }
+}
