@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+<head>
+	<title>St Albans Dogs Day</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+  <meta name="description" content="St Albans Dogs Day. An afternoon of dog activities, competitions, fun, and fetch. Saturday 20th September, 12pm-5pm.">
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-119040-20', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head>
+<body>
+  <div class="sponsors">
+    <div class="container">
+       Presented by <a href="http://stalbansdogservices.co.uk" title="St Albans Dog Services">St Albans Dog Training &amp; Services</a>,<span> and sponsored by <img src="/images/homebase.png" /></span>
+    </div>
+  </div>
+  <div class="header">
+    <div class="container">
+      <div class="calendar">
+        <p class="month">September</p>
+        <p class="date">20<sup>th</sup></p>
+        <p class="time">12:00 - 16:00</p>
+      </div>
+      <h1>St Albans Dogs Day</h1>
+      <p class="strapline">
+        An afternoon of dog activities, competitions, fun &amp; fetch.
+      </p>
+      <p class="aid">In aid of <a href="http://glendee-rescue.vpweb.co.uk/" title="Glendee Rescue and rehoming.">Glendee Rescue and re-homing.</a></p>
+      <ul class="highlights">
+        <li>Have-a-go trick dog training</li>
+        <li>Rosettes &amp; prizes to be won</li>
+        <li>Live music</li>
+        <li>Entertainment for all the family</li>
+        <li>Products &amp; accessories to buy &amp; win</li>
+        <li>Food &amp; refreshments</li>
+        <li>BIG tombola!</li>
+        <li>And more!</li>
+      </ul>
+      <div class="address">
+       Oaklands College<br />
+       Hatfield Road<br />
+       St Albans<br />
+       <a href="https://www.google.co.uk/maps/place/Oaklands+College/@51.755021,-0.288178,15z/data=!4m2!3m1!1s0x48763ec411579569:0x228c2c3afcf93487" title="Google map">&#10149; View on Google maps</a>
+      </div>
+      <p class="social">
+        <a href="https://www.facebook.com/events/1529464323943485/?fref=ts" title="Find us on Facebook" class="facebook">Facebook</a>
+      </p>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div id="map"></div>
+  </div>
+  <div class="content">
+    <div class="container">
+      <h2>Schedule</h2>
+      <p>
+        Events, stalls and refreshments will run throughout the afternoon. We'll have a barbeque, waffles, ice creams and plenty of other refreshments.
+      </p>
+
+      <h3>Main arena</h3>
+      <p>
+        Each classes is £2 to enter and you can enter as many as you like for a chance to win rosettes and prizes (and all entries will win something). Registration opens at <b>12.00</b> at the registration tent.
+      </p>
+      <ul class="schedule">
+        <li>12:30 - Junior Handler
+          <span>
+            Open to children and teens aged 16 and under. Handler to demonstrate 3 commands of their choice.
+          </span>
+        </li>
+        <li>12:50 - Sit and Stay : Sudden Death
+           <span>Where the aim is to be the last dog sitting!</span>
+        </li>
+        <li>13.10 - Golden Oldie
+          <span>Open to all pooches aged 8 years and over.</span>
+        </li>
+        <li>13.50 - Most Improved Rescue
+          <span>
+            A chance to share your rescue dog's story.
+          </span>
+        </li>
+        <li>14.10 - Best Trick
+          <span>
+            Show us what your clever hound can do!
+          </span>
+        </li>
+        <li>14.30 - Best Biscuit or Ball Catcher
+          <span>
+            Show off your dog's catching skills with a choice of biscuit or ball.
+          </span>
+        </li>
+        <li>15.10 - Best Looking Dogs - Male and Female
+          <span>
+            Will your dog be Prom King or Queen?
+          </span>
+        </li>
+        <li>15.30 - Musical Bumps
+          <span>
+            A fun and fast-moving game for dogs and handlers. He who sits, wins!
+          </span>
+        </li>
+        <li>15.50 - The Dog the Judge Most Wants to Take Home
+          <span>
+            Open to all winners from each of the previous classes. Who will be best in show and take away our top prize?
+          </span>
+        </li>
+      </ul>
+      <h3>Entertainment Arena</h3>
+      <ul class="schedule">
+
+				<li>11:45 - Acoustic Guitar
+					<span>
+						Live acoustic guitar from Beth, a local Oaklands College musician.
+					</span>
+				</li>
+				<li>12:30 - Krazy Kat Demo &amp; Workshop
+					<span>Line dancing fun open to all ages.</span>
+				</li>
+				<li>13:45 - <a href="https://www.facebook.com/pages/Karl-The-Prodigal-Son/124722661060437?fref=ts">Karl &amp; The Prodigal Son</a>
+					<span>Live music from a local guitar duo.</span>
+				</li>
+				<li>14:30 - Trick Dog Workshop
+					<span>Open to all abilities and ages, learn some basic tricks with local trainer, Carrie.</span>
+				</li>
+				<li>15:15 - <a href="http://www.bsvjazzband.org.uk/">BSV</a>
+					<span>Live music from a local community jazz band.</span>
+				</li>
+				<li>15:45 - <a href="http://www.laurajeanne.co.uk/Laura_Jeanne-_Singer,_Songwriter,_Fashion_Designer/Home.html">Laura Jeanne</a>
+					<span>New single exclusive from local singer/songwriter.</span>
+				</li>
+
+
+        <!-- <li>12.30 - Know Your Hill
+          <span>
+            Music from a superb local band.
+          </span>
+        </li>
+        <li>12.50 - Know Your Hill Workshop
+           <span>Your chance to meet the band and have a go at some music.</span>
+        </li>
+
+        <li>13.30 - Dog Awareness Seminar
+          <span>
+            Learn how to look after, interact with and read the body language of your dog with Selina and Tucker from St Albans Dog Services.
+          </span>
+        </li>
+        <li>13.50 - Know Your Hill Demo
+          <span>
+            More music from the St Albans fourpiece.
+          </span>
+        </li>
+        <li>14.10 - Know Your Hill Workshop
+          <span>
+            Another chance to meet the band and have a go at some music.
+          </span>
+        </li>
+        <li>14.30 Have-a-Go Trick Dog Workshop
+          <span>
+            Open to all abilities and ages, learn some basic tricks with local trainer, Carrie.
+          </span>
+        </li>
+        <li>14.50 Trick Dog Workshop
+          <span>
+            Know some tricks already? Come and learn a few more with local trainer, Carrie.
+          </span>
+        </li>
+        <li>15.10 Trick Dog Workshop
+          <span>
+            Open to all abilities and ages, another chance to learn some basic tricks.
+          </span>
+        </li>
+        <li>15.30 Trick Dog Workshop with Carrie
+          <span>
+            Know some tricks already? Another chance to learn a few more!
+          </span>
+        </li> -->
+      </ul>
+
+      <h2>Competitions and Prizes</h2>
+      <p>
+        Thanks to our wonderful <a href="#sponsors">supporters and sponsors</a> we have lots of competitions and prizes to be won.
+      </p>
+      <p>
+        Tweet about the day with the hashtag <a href="https://twitter.com/hashtag/StAlbansDogsDay?src=hash" title="#stalbansdogsday">#StAlbansDogsDay</a> to qualify for our extra special mystery prize draw.
+      </p>
+
+      <h2 id="stalls">
+        Stalls and vendors
+      </h2>
+      <p>We will have a wide variety of stalls and stands on the day, including:</p>
+      <h3>Pets</h3>
+      <ul class="stalls">
+        <li><a href="http://www.barkingmadclothing.co.uk">Barking Mad Clothing</a><span>Made-to-measure dog clothing and quality dog beds</span></li>
+        <li><a href="http://www.cats.org.uk/stalbans">Cats Protection League</a><span>The UK's leading cats' welfare charity</span></li>
+        <li><a href="http://www.cherryvets.com/">Cherry Vets</a><span>Mobile veterinary service for the St Albans area</span></li>
+        <li><a href="http://www.kimlayzellphotography.co.uk/">Kim Layzell Photography</a><span>pho-dog-raphy and doggy dress up booth</span></li>
+        <li><a href="https://www.oscars.co.uk/">Oscar's Dog Food</a><span>Pet foods and nutrition advice</span></li>
+        <li><a href="http://pawsbuddy.co.uk/" title="Paws Buddy">Paws Buddy</a><span>Pet sitting, dog walking &amp; other pet services</span></li>
+        <li><a href="http://www.petrelief.co.uk/">Pet Relief</a><span>Dog walking, dog boarding, and  pet sitting services</span></li>
+        <li><a href="http://www.poppyandrufus.co.uk/">Poppy and Rufus</a><span>Beds, bowls and other crafted accessories</span></li>
+        <li><a href="http://stalbansdogservices.co.uk" title="St Albans Dog Services">St Albans Dog Training &amp; Services</a><span>Dog and puppy training classes</span></li>
+        <li><a href="http://www.woofing-tastic.co.uk/">Woofing Tastic</a><span>Fancy feeding stations</span></li>
+      </ul>
+      <h3>Food and drink</h3>
+      <ul class="stalls">
+        <li><a href="http://bootylicious.coffee">Bootylicious Coffee</a><span>Coffee and refreshments</span></li>
+        <li><a href="https://www.facebook.com/letswaffle">Let's Waffle</a><span>Yummy waffles on sticks</span></li>
+        <li><a href="http://www.noviellosices.co.uk/">Noviello's Ices</a><span>Ice creams</span></li>
+        <li><a href="http://www.thelowerredlion.co.uk">The Red Lion</a><span>Barbeque</span></li>
+        <li><a href="http://www.vanhound.net/">Van Hound</a><span>Refreshments and dog treats</span></li>
+      </ul>
+      <h3>And plenty more</h3>
+      <ul class="stalls">
+        <li><a href="https://www.facebook.com/BaublesandTreasures">Baubles and Treasures</a><span>Jewellery and accessories</span></li>
+        <li><a href="http://foreveryoung.org.uk/">Forever Young</a><span>Health and beauty products</span></li>
+        <li><a href="http://www.nuffieldhealth.com/">Nuffield Health</a><span>UK healthcare charity</span></li>
+        <li><a href="http://www.sandy-art.co.uk/">Sandy Art</a><span>Arts and events for kids of all ages</span></li>
+      </ul>
+      <p>
+        If you would like a stall or information on getting involved, please contact us on <a href="mailto:info@stalbansdogservices.co.uk">info@stalbansdogservices.co.uk</a> and complete an <a href="/StAlbansDogsDaybookingform.pdf" target="_BLANK">application form.</a>
+      </p>
+    </div>
+
+  </div>
+  <div class="footer">
+    <div class="container">
+      <h3>Supported by</h3>
+      <div>
+         <a href="http://stalbansdogservices.co.uk" title="St Albans Dog Training and Services">St Albans Dog Training and Services</a>
+         <p>Dog and puppy training classes using positive reinforcement training techniques.</p>
+      </div>
+      <div>
+        <a href="http://www.kimlayzellphotography.co.uk/">Kim Layzell Photography</a>
+        <p>Specialising in photography of pets and people</p>
+      </div>
+      <div>
+        <a href="http://pawsbuddy.co.uk" title="Paws Buddy">Paws Buddy</a>
+        <p>Pet setting and dog walking services in the St Albans area</p>
+      </div>
+      <div>
+        <a href="http://woofwoofwalk.com/" title="Woof Woof Walk">Woof Woof Walk</a>
+        <p>Dog walking and boarding</p>
+      </div>
+      <div>
+        <h3 id="sponsors">Special thanks to</h3>
+        <p><em>our main sponsor <a href="http://www.homebase.co.uk/" title="Homebase">Homebase</a>,</em></br><em>our contributors and helpers <a href="http://www.eve-and-adam.com" title="Adam &amp; Eve">Adam &amp; Eve</a> <a href="http://www.caninecreations-stalbans.co.uk/" title="Canine Creations">Canine Creations</a>, <a href="http://www.carterhayward.co.uk/" title="Carter Hayward">Carter Hayward</a>, <a href="http://www.cocopetgrooming.com" title="Coco Pet Grooming">Coco Pet Grooming</a>, <a href="http://www.heavenisacupcake.net" title="Heaven is a Cupcake">Heaven is a Cupcake</a>, <a href="http://www.hobsalons.com/salons/albans.php" title="Hob Salons">Hob Salons</a>, <a href="http://www.lintbells.com/" title="Lintbells">Lintbells</a>, <a href="http://www.nuffieldhealth.com/" title="Nuffield Health">Nuffield Health</a>, <a href="http://www.verulam-autos.co.uk/">Verulam Autos</a>, <a href="http://www.sainsburys.co.uk/">Sainsbury's</a> <a href="http://www.slamsigns.com/" title="Slam Signs">Slam Signs</a>,  and all our helpers and volunteers</em></p>
+      <div>
+    </div>
+  </div>
+
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script>
+    var map = L.map('map', {
+      center: [51.755058, -0.287996],
+      zoom: 13,
+      touchZoom: false,
+      scrollWheelZoom: false
+    });
+    L.tileLayer('http://{s}.tiles.mapbox.com/v3/philhawksworth.j9o86ej8/{z}/{x}/{y}.png', {
+      attribution: '<a href="http://mapbox.com">Mapbox</a>'
+    }).addTo(map);
+    var marker = L.marker([51.755058, -0.287996]).addTo(map);
+  </script>
+</body>
+</html>
