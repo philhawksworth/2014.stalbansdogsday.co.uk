@@ -43,6 +43,20 @@ h3 { font-size: 28px; }
   position: relative;
 }
 
+.series {
+  font-style: italic;
+  font-size: 0.8em;
+  background-color: #717c46;
+  color:#ccc;
+}
+
+ .series .container {
+  background-color: #5c682c;
+  padding: 0.6em;
+  text-align: center;
+ }
+
+
 .sponsors {
   font-style: italic;
   font-size: 0.8em;
@@ -71,6 +85,23 @@ h3 { font-size: 28px; }
   .sponsors a:focus {
     text-decoration: underline;
   }
+
+
+  .series a:link,
+  .series a:visited,
+  .sponsors a:link,
+  .sponsors a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  .series a:hover,
+  .sponsors a:focus, 
+  .sponsors a:hover,
+  .sponsors a:focus {
+    color: #fff;
+    text-decoration: underline;
+  }
+
 
 .header {
   text-shadow: 0px -1px 2px rgba(0,0,0,0.4);
